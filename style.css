@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+body{
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+   min-height: 100vh;
+   min-width: 50vh;
+   overflow-x: hidden;
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.container{
+    width: 50%;
+    display: flex;
+    position: relative;
+    top: 40px;
+}
+.container div{
+    padding: 40px;
+    width: 400px;
+}
+.container h2{
+    color: hsla(0, 0%, 95%, 0.96);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 
+    700;
+    font-size: 30px;
+}
+.container p{
+    color: hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+.card1{
+    background:  hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+.card2{
+  background: hsl(184, 100%, 22%);
+}
+.card3{
+    background: hsl(179, 100%, 13%) ;
+    border-radius: 0px 8px 8px 0px;
+}
+button{
+    margin-top: 40px;
+}
+.boton-card1{
+    color: hsl(31, 77%, 52%);
+    padding: 10px 20px;
+    border-radius: 35px;
+    border:none;
+    font-size: 11px;
+}
+.boton-card2{
+    color: hsl(184, 100%, 22%);
+    padding: 10px 20px;
+    border-radius: 35px;
+    border:none;
+    font-size: 11px;
+}
+.boton-card3{
+    color:  hsl(179, 100%, 13%);
+    padding: 10px 20px;
+    border-radius: 35px;
+    border:none;
+    font-size: 11px;
+}
+
+footer{
+   position: relative;
+   left: 45%;
+    padding: 1em;
+    font-family: verdana;
+}
